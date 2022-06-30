@@ -1,0 +1,42 @@
+.testimony-container {
+    width: 1170px;
+    height: 368px;
+    margin: 10px 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0 3px 13px 1px rgb(0 0 0 / 9%);
+}
+
+.testimony-imagen {
+    height: 100%;
+    width: 30%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.testimony-text-container {
+    /* width: 100%;
+    font-size: 18px; se puede poner o no, hereda propiedades del contenedor */
+    text-align: center;
+    padding: 40px;
+    font-family: Lato, sans-serif;
+    font-weight: 400px;
+    line-height: 1.5rem;
+}
+
+.testimony-name {
+    font-size: 1.3rem;
+}
+
+.job-testimony {
+    font-size: 1.3rem;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.text-testimony {
+    font-size: 1.1rem;
+    text-align: justify;
+}
